@@ -1,0 +1,124 @@
+body
+{
+
+}
+
+.fixed
+{
+	position: fixed;
+	display: flex;
+	top: 0;
+	background-color: rgba(30, 30, 30, 1);
+	width: 100%;
+}
+
+.input
+{
+  margin-top: 4%;
+	float: left;
+	width: 100%;
+	height: 18%;
+	border-bottom: 1px solid black;
+	position: fixed;
+	background: #ffffff;
+}
+
+.input form
+{
+	float: left;
+	width: 80%;
+}
+
+.input img
+{
+	float: right;
+	height: 100%;
+}
+
+form
+{
+	margin: 10px;
+	margin-left: 20px;
+}
+
+.center
+{
+	margin-right: .5%;
+	margin-left: .5%;
+	margin-top: 14%;
+	margin-bottom: 3%;
+	width: 99%;
+	float: left;
+	clear: both;
+}
+
+.response
+{
+	border: 1px solid black;
+	margin-top: 3px;
+  margin-left: 10px;
+	padding-left: 10px;
+}
+
+.response ul
+{
+	list-style-type: none;
+}
+
+footer
+{
+	text-align: center;
+	height: 25px;
+	width: 100%;
+	color: #ffffff;
+	background: #000000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+@media only screen and (max-width: 400px)
+{
+	.input
+	{
+	  margin-top: 14%;
+		float: left;
+		width: 100%;
+		height: 55%;
+		border-bottom: 1px solid black;
+		position: fixed;
+		background: #ffffff;
+	}
+
+	.input legend
+	{
+		font-size: 1em;
+		background: #ffffff;
+		width: 100%;
+	}
+
+	.input form
+	{
+		margin: 2%;;
+		width: 95%;
+	}
+
+	.input img
+	{
+		height: 70%;
+		width: 100%;
+	}
+
+	.center
+	{
+		margin-top: 125%;
+		margin-bottom: 8%;
+	}
+
+	.response
+	{
+		border: 1px solid black;
+	  margin-left: 1px;
+		padding-left: 10px;
+	}
+}

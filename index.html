@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Creative Project 2</title>
+  </head>
+  <body>
+    <div class="fixed">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Studio Ghibli API</a>
+      </nav>
+
+    </div>
+
+    <div class="input">
+      <img src="images/SG_everyone.jpg" alt="">
+      <form>
+        <legend>
+          Select Film, People, or Location hit the 'Find It!' button to see what the world of Studio Ghibli has to offer!
+        </legend>
+        <!-- <label>Enter a U.S. City</label> -->
+
+        <select id="selector">
+          <option value="films">Film</option>
+          <option value="people">People</option>
+          <option value="locations">Location</option>
+        </select>
+
+        <!-- <input placeholder="Type search criteria here..." id="searchInput" type="text"> -->
+        <!-- <input id="weatherSubmit" type="submit" value="Submit"> -->
+        <button id="search">Find It!</button>
+      </form>
+      <!-- <img src="images/SG_everyone.jpg" alt=""> -->
+    </div>
+
+    <div class="center">
+      <div id="test"></div>
+
+    </div>
+
+
+    <footer>
+      <a href="https://github.com/BYU-CS-260-Winter-2019/lab-2-darrow97" target="_blank">Click here for access to the Git Repository</a>
+    </footer>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script txt="type/javascript" src="js/api_call.js"></script>
+</html>
